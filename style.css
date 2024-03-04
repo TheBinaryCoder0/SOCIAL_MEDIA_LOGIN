@@ -1,0 +1,221 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html,body{
+    width: 100%;
+    height: 100%;
+  }
+
+  #main{
+    width: 100%;
+    height: 100%;
+    background-color: #AED6F1  ;
+  }
+
+  /* #main #background{
+    width: 100%;
+    height: 100%;
+    /* background-image: url(""); */
+    /* background-size: cover; */
+    /* background-position: center; */ 
+
+    #logo{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      width: 13%;
+      height: 5%;
+      top: 1%;
+      left: 1%;
+    }
+
+    #logo h1{
+      font-size: 32px;
+      color: #12be5d ;
+    }
+
+    #signupandlogin{
+      position: absolute;
+      width: 20%;
+      height: 5%;
+      right: 1%;
+      top: 1%;
+      display: flex;
+      justify-content:space-evenly;
+    }
+
+    #signupright{
+      white-space: nowrap;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 49%;
+      height: 100%;
+    }
+
+    #bsignupright{
+      cursor: pointer;
+      font-size: 32px;
+      color: #12be5d;
+      border: none;
+      background-color: transparent;
+    }
+
+    #bsignupright:hover{
+      color: rebeccapurple;
+    }
+
+    #hrline{
+      width: 2%;
+      height: 100%;
+      background-color: black;
+    }
+
+    #loginright{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 43%;
+      height: 100%;
+    }
+
+    #bloginright{
+      cursor: pointer;
+      font-size: 32px;
+      color: #12be5d;
+      border: none;
+      background-color: transparent;
+    }
+
+    #bloginright:hover{
+      color: rebeccapurple;
+    }
+
+    #centerlogo{
+      width: 20%;
+      height: 20%;
+      position: absolute;
+      top: 30%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      /* background-color: red; */
+      /* background-image: url("https://drive.google.com/file/d/1ghDXuCyXNg2oLphYf3yaIrTuKvkrvk52/view?usp=drive_link"); */
+      background-image: url("https://plus.unsplash.com/premium_photo-1709311448945-df64d47cb8e7?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+      background-position: center;
+      background-size: cover;
+    }
+
+    #username{
+      display: flex;
+      position: absolute;
+      width: 20%;
+      height: 10%;
+      left: 50%;
+      top: 46%;
+      transform: translate(-50%,-50%);
+    }
+
+    #usernametext{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 50%;
+      height: 100%;
+    }
+
+    #usernameinput{
+      display: flex;
+      justify-content: center; 
+      align-items: center; 
+      width: 50%;
+      height: 100%;
+    }
+
+    #password{
+      display: flex;
+      width: 20%;
+      height: 10%;
+      position: absolute;
+      left: 50%;
+      top: 57%;
+      transform: translate(-50%,-50%);
+    }
+    
+    #passwordtext{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 50%;
+      height: 100%;
+    }
+
+    #passwordinput{
+      width: 50%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #login{
+      background-color: red;
+      position: absolute;
+      width: 8%;
+      height: 4%;
+      display: flex;
+      justify-content: center;
+      top: 65%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+    }
+
+    #blogin{
+      width: 100%;
+      height: 100%;
+    }
+
+    #newusersignup{
+      width: 15%;
+      height: 8%;
+      position: absolute;
+      left: 50%;
+      top: 72%;
+      transform: translate(-50%,-50%);
+      display: flex;
+    }
+
+    #newusertext{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 50%;
+      height: 100%;
+    }
+
+    #newuserinput{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 50%;
+      height: 100%;
+    }
+
+    #bsign{
+      width: 70%;
+      height: 70%;
+    }
+
+    #copyright{
+      width: 5%;
+      position: absolute;
+      right: 1%;
+      bottom: 1%;
+      font-weight: 800;
+      font-size: 30px;
+      color: #12be5d;
+    }
+
+
